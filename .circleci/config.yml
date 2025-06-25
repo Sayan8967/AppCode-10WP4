@@ -51,8 +51,3 @@ workflows:
           requires:
             - build_and_push
       
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 05def67d328ba797b6741cf71aaf7cecbbf223da
