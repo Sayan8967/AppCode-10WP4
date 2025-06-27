@@ -29,11 +29,11 @@ jobs:
             TAG=$CIRCLE_BUILD_NUM
             ((TAG--))
 
-            git clone https://github.com/sayan896/kube_manifest.git # Clone from the Repo where git manifest is present
+            git clone https://github.com/sayan8967/kube_manifest-10WP4.git # Clone from the Repo where git manifest is present
             git config --global user.email "sayan.ban1998@gmail.com"
             git config --global user.name "Sayan-Banerjee"
             pwd
-            cd kube_manifest
+            cd kube_manifest-10WP4
             pwd
             echo $TAG
             sed -i "s/build-.*/build-$TAG/g" manifest/deployment.yaml 
